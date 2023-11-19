@@ -136,3 +136,9 @@
 
 // 	time.Sleep(time.Second)
 // }
+
+// func checkErr(err error, args ...interface{}) {
+// 	if err != nil {
+// 		panic(fmt.Sprint(append([]interface{}{err}, args...)...))
+// 	}
+// }
